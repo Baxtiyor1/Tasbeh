@@ -55,3 +55,25 @@ h1{
     font-weight: bold;
     background-color: rgb(0, 255, 0);
 }
+@media screen and (max-width: 520px) {
+    .wrapper{
+        padding: 50px;
+        width: 85%;
+        background-size: cover;
+    }
+    .number{
+        width: 95%;
+        height: 80px;
+        font-size: 70px;
+    }
+    .btn-reset{
+        margin: 50px;
+        margin-left: 200px;
+        width: 60px;
+        height: 60px;
+    }
+    .btn-add{
+        width: 150px;
+        height: 150px;
+    }
+}
