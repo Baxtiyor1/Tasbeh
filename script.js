@@ -1,7 +1,7 @@
 const elNumber = document.querySelector('#number');
 // const elBtn_reset = document.querySelector('#btn-reset');
 // const elBtn_add = document.querySelector('#btn-add');
-const elBtns = document.querySelectorAll('#btn')
+const elBtns = document.querySelectorAll('.btn')
 
 let count = 0;
 
@@ -10,7 +10,6 @@ elBtns.forEach(function (btn) {
         const styles = e.currentTarget.classList;
         if(styles.contains('btn-add')){
             count++;
-            
         }
         else if(styles.contains('btn-reset')){
             count = 0
